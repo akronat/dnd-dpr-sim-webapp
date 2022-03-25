@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/dnd-dpr-sim-webapp/static/js/main.71965222.js",
-    "static/js/50.ba90c760.chunk.js": "/dnd-dpr-sim-webapp/static/js/50.ba90c760.chunk.js",
-    "index.html": "/dnd-dpr-sim-webapp/index.html",
-    "main.71965222.js.map": "/dnd-dpr-sim-webapp/static/js/main.71965222.js.map",
-    "50.ba90c760.chunk.js.map": "/dnd-dpr-sim-webapp/static/js/50.ba90c760.chunk.js.map"
+    "main.js": "/dsim/static/js/main.3dacffc0.js",
+    "static/js/50.ba90c760.chunk.js": "/dsim/static/js/50.ba90c760.chunk.js",
+    "index.html": "/dsim/index.html",
+    "main.3dacffc0.js.map": "/dsim/static/js/main.3dacffc0.js.map",
+    "50.ba90c760.chunk.js.map": "/dsim/static/js/50.ba90c760.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.71965222.js"
+    "static/js/main.3dacffc0.js"
   ]
 }
