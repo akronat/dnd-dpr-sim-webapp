@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.js": "/dsim/static/js/main.a1257231.js",
+    "main.css": "/dsim/static/css/main.2ee4fe97.css",
+    "main.js": "/dsim/static/js/main.2007d998.js",
     "static/js/56.e356e668.chunk.js": "/dsim/static/js/56.e356e668.chunk.js",
     "index.html": "/dsim/index.html",
-    "main.a1257231.js.map": "/dsim/static/js/main.a1257231.js.map",
+    "main.2ee4fe97.css.map": "/dsim/static/css/main.2ee4fe97.css.map",
+    "main.2007d998.js.map": "/dsim/static/js/main.2007d998.js.map",
     "56.e356e668.chunk.js.map": "/dsim/static/js/56.e356e668.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.a1257231.js"
+    "static/css/main.2ee4fe97.css",
+    "static/js/main.2007d998.js"
   ]
 }
