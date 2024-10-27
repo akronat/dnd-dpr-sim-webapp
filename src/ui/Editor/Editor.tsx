@@ -136,6 +136,7 @@ const Editor: React.FC<Props> = ({ sims, editStateSet }) => {
           const onChange = createEditorHandler(modEditor, stateSetRef);
           modEditor.onDidChangeModelContent(onChange);
         }}
+        options={{ readOnly: true }}
       />
     );
   }
@@ -150,6 +151,7 @@ const Editor: React.FC<Props> = ({ sims, editStateSet }) => {
         const onChange = createEditorHandler(editor, stateSetRef);
         editor.onDidChangeModelContent(onChange);
       }}
+      options={{ readOnly: true }}
     />
   );
 };

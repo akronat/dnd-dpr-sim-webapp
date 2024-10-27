@@ -1,6 +1,6 @@
 # D&D Damage Simulator
 
-https://akronat.github.io/dsim/
+Moved to [https://github.com/kbromwich/dsim](https://github.com/kbromwich/dsim).
 
 Performs simulations of attacks based on custom definitions to produce damage statistics (mean, stdev, min, max).
 Much of the expression syntax is specifically for D&D 5e. However, with some extra work you might able to use it for other systems.

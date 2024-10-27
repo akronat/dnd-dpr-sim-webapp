@@ -26,6 +26,9 @@ const Readme = () => (
     >
       D&amp;D Damage Simulator
     </Typography>
+    <Typography sx={{ fontStyle: 'italic' }} variant="subtitle1">
+      Moved to <a href="https://kbromwich.github.io/dsim/">https://kbromwich.github.io/dsim/</a>
+    </Typography>
     <Typography>
       <p>
         Performs simulations of attacks based on custom definitions to produce

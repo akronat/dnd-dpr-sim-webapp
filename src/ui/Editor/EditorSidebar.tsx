@@ -27,7 +27,7 @@ const EditorSidebar: React.FC<Props> = ({ editStateSet, onSimsChange, sandboxMod
       p: 1,
     }}>
       <Button
-        disabled={state.editSims === undefined}
+        disabled={true || state.editSims === undefined}
         onClick={() => {
           if (state.editSims !== undefined) {
             onSimsChange(state.editSims);
@@ -39,13 +39,13 @@ const EditorSidebar: React.FC<Props> = ({ editStateSet, onSimsChange, sandboxMod
         {!sandboxMode && 'Save Changes'}
       </Button>
       <Button
-        disabled={state.editSims === undefined && !state.showEditDiff}
+        disabled={true || (state.editSims === undefined && !state.showEditDiff)}
         onClick={() => setState({ showEditDiff: !state.showEditDiff })}
       >
         {state.showEditDiff ? 'Hide Diff' : 'Show Diff'}
       </Button>
       <Button
-        disabled={state.editSims === undefined}
+        disabled={true || state.editSims === undefined}
         onClick={() => setState({ cancel: true })}
       >
         Cancel Changes

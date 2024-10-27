@@ -92,6 +92,9 @@ export default function App() {
           >
             D&amp;D Damage Simulator
           </Typography>
+          <Typography sx={{ fontStyle: 'italic' }} variant="body2">
+            Moved to <a href="https://kbromwich.github.io/dsim/">https://kbromwich.github.io/dsim/</a>
+          </Typography>
           {sandboxMode && (
             <Typography sx={{ fontStyle: 'italic' }} variant="body2">
               Linked-sandbox mode: changes will not be saved!
@@ -102,8 +105,8 @@ export default function App() {
           <Tabs value={tab} onChange={(e, tab) => setTab(tab)} orientation="vertical">
             <Tab label="About" />
             <Tab label={editsInProgress ? 'Edit Sims*' : 'Edit Sims'} />
-            <Tab label="Select Sims" />
-            <Tab label="Run Sims" />
+            <Tab label="Select Sims" disabled />
+            <Tab label="Run Sims" disabled />
           </Tabs>
         </Box>
 
